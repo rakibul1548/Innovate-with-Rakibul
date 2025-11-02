@@ -10,10 +10,11 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ProjectModal from "@/components/ProjectModal";
 import { Project } from "@/lib/projects";
+
 export default function LandingPage(): JSX.Element {
-const [selected, setSelected] = useState<Project | null>(null);
-return (
-  
+  const [selected, setSelected] = useState<Project | null>(null);
+
+  return (
     <div className="min-h-screen text-white bg-[#0F172A]">
       {/* Animated gradient background */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
